@@ -1213,45 +1213,63 @@ ul { list-style: none; }
   color: var(--text);
 }
 
-/* ---------- DELIVERY GALLERY ---------- */
+/* =========================================================
+   DELIVERY / SERAH TERIMA UNIT
+   ========================================================= */
+
 .delivery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  width: 100%;
 }
 
-.delivery-item {
-  position: relative;
-  border-radius: var(--radius);
+.delivery-card {
+  width: 100%;
+  min-width: 0;
   overflow: hidden;
-  cursor: pointer;
-  aspect-ratio: 4/3;
-  box-shadow: var(--shadow-sm);
-  border: 1px solid var(--border-light);
+  border-radius: 16px;
 }
 
-.delivery-item img {
+.delivery-img-wrap {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+.delivery-img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  object-position: center;
 }
 
-.delivery-item:hover img {
-  transform: scale(1.06);
+.delivery-caption {
+  margin: 0;
+  padding: 12px 14px;
+  text-align: center;
 }
 
-.delivery-item::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.3), transparent 50%);
-  opacity: 0;
-  transition: opacity var(--transition);
+/* Tablet */
+@media (max-width: 900px) {
+  .delivery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
 }
 
-.delivery-item:hover::after {
-  opacity: 1;
+/* HP */
+@media (max-width: 600px) {
+  .delivery-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .delivery-img-wrap {
+    aspect-ratio: 4 / 3;
+  }
 }
 
 /* ---------- MODAL ---------- */
