@@ -32,7 +32,7 @@ export default function AboutSection() {
         setLoadingLocation(false);
       },
       () => {
-        setDistanceInfo("Tidak dapat mengakses lokasi Anda. Dealer beralamat di Jl. Naripan No.68, Bandung.");
+        setDistanceInfo("Tidak dapat mengakses lokasi Anda. Dealer beralamat di Jl. Ahmad Yani No.68, Bandung.");
         setLoadingLocation(false);
       }
     );
@@ -98,10 +98,10 @@ export default function AboutSection() {
       <section className="section section-alt">
         <div className="container text-center reveal">
           <h2 className="section-title">
-            <span className="title-accent">Lokasi</span> Dealer Suzuki NJS Naripan Bandung
+            <span className="title-accent">Lokasi</span> Dealer Suzuki NJS Ahmad Yani Bandung
           </h2>
           <p className="section-subtitle">
-            Kunjungi showroom Suzuki NJS Naripan Bandung untuk melihat unit mobil Suzuki, test drive, dan konsultasi kredit mobil.
+            Kunjungi showroom Suzuki NJS Ahmad Yani Bandung untuk melihat unit mobil Suzuki, test drive, dan konsultasi kredit mobil.
           </p>
 
           <div className="map-container" style={{ marginTop: "24px", borderRadius: "16px", overflow: "hidden" }}>
@@ -113,7 +113,7 @@ export default function AboutSection() {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Lokasi Dealer Suzuki NJS Naripan Bandung"
+              title="Lokasi Dealer Suzuki NJS Ahmad Yani Bandung"
             ></iframe>
           </div>
 
