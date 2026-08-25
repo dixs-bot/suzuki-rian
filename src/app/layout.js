@@ -8,15 +8,35 @@ export const viewport = {
 };
 
 export const metadata = {
+  // ============================================================
+  // BASE URL
+  // ============================================================
+
   metadataBase: new URL("https://suzuki-rian.vercel.app/"),
+
+  // ============================================================
+  // SEO TITLE
+  // ============================================================
 
   title: `Dealer Suzuki Bandung & Cimahi | ${siteConfig.businessName} – Kredit Mobil Baru DP Ringan`,
 
+  // ============================================================
+  // SEO DESCRIPTION
+  // ============================================================
+
   description:
-    "Dealer Suzuki Nusantara Jaya Sentosa Ahmad Yani melayani pembelian, servis, dan spare part mobil Suzuki di wilayah Bandung raya, Subang, Sumedang, Garut, Tasikmalaya, Ciamis, Banjar, dan Pangandaran.",
+    "Dealer Suzuki Nusantara Jaya Sentosa Ahmad Yani melayani pembelian, servis, dan spare part mobil Suzuki di wilayah Bandung Raya, Subang, Sumedang, Garut, Tasikmalaya, Ciamis, Banjar, dan Pangandaran.",
+
+  // ============================================================
+  // SEO KEYWORDS
+  // ============================================================
 
   keywords:
     "Dealer Suzuki Bandung, Dealer Suzuki Cimahi, Dealer Suzuki Ahmad Yani, Suzuki Bandung, Suzuki Cimahi, kredit mobil Suzuki, promo Suzuki Bandung, mobil Suzuki Bandung, harga mobil Suzuki, dealer mobil Suzuki",
+
+  // ============================================================
+  // AUTHOR
+  // ============================================================
 
   authors: [
     {
@@ -24,14 +44,34 @@ export const metadata = {
     },
   ],
 
+  // ============================================================
+  // GOOGLE SEARCH ENGINE
+  // ============================================================
+
   robots: {
     index: true,
     follow: true,
   },
 
+  // ============================================================
+  // GOOGLE SEARCH CONSOLE VERIFICATION
+  // ============================================================
+
+  verification: {
+    google: "6N-Mfe4cyHyY-Fl9Fo4-iOUfmIVjc_IebHSCy8PsuRA",
+  },
+
+  // ============================================================
+  // CANONICAL URL
+  // ============================================================
+
   alternates: {
     canonical: "https://suzuki-rian.vercel.app/",
   },
+
+  // ============================================================
+  // OPEN GRAPH
+  // ============================================================
 
   openGraph: {
     title: `Dealer Suzuki Bandung & Cimahi | ${siteConfig.businessName} – Kredit Mobil Baru DP Ringan`,
@@ -47,6 +87,10 @@ export const metadata = {
 
     locale: "id_ID",
   },
+
+  // ============================================================
+  // TWITTER / SOCIAL MEDIA
+  // ============================================================
 
   twitter: {
     card: "summary_large_image",
@@ -66,7 +110,10 @@ export default function RootLayout({ children }) {
             GOOGLE FONTS
         ====================================================== */}
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.googleapis.com"
+        />
 
         <link
           rel="preconnect"
@@ -169,7 +216,8 @@ export default function RootLayout({ children }) {
                 {
                   "@type": "Question",
 
-                  name: "Berapa DP minimal mobil Suzuki di Bandung & Cimahi?",
+                  name:
+                    "Berapa DP minimal mobil Suzuki di Bandung & Cimahi?",
 
                   acceptedAnswer: {
                     "@type": "Answer",
@@ -181,12 +229,14 @@ export default function RootLayout({ children }) {
                 {
                   "@type": "Question",
 
-                  name: "Apakah bisa tukar tambah mobil lama dengan mobil Suzuki baru?",
+                  name:
+                    "Apakah bisa tukar tambah mobil lama dengan mobil Suzuki baru?",
 
                   acceptedAnswer: {
                     "@type": "Answer",
 
-                    text: "Bisa. Kami melayani tukar tambah mobil lama Anda ke mobil Suzuki baru, proses dibantu sampai selesai termasuk appraisal unit lama dan pengurusan berkas.",
+                    text:
+                      "Bisa. Kami melayani tukar tambah mobil lama Anda ke mobil Suzuki baru, proses dibantu sampai selesai termasuk appraisal unit lama dan pengurusan berkas.",
                   },
                 },
 
@@ -198,7 +248,8 @@ export default function RootLayout({ children }) {
                   acceptedAnswer: {
                     "@type": "Answer",
 
-                    text: "Ya, kami melayani konsumen dari Bandung, Cimahi, dan sekitarnya seperti Padalarang, Lembang, Rancaekek, hingga Kabupaten Bandung.",
+                    text:
+                      "Ya, kami melayani konsumen dari Bandung, Cimahi, dan sekitarnya seperti Padalarang, Lembang, Rancaekek, hingga Kabupaten Bandung.",
                   },
                 },
 
