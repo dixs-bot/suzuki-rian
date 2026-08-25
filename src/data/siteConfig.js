@@ -21,11 +21,11 @@ export function getWhatsAppLink(message = "Halo, saya tertarik dengan produk Suz
 }
 
 export const deliveryPhotos = [
-  { src: "serah-terima.jpeg", caption: "Serah Terima Suzuki XL7 Alpha AT" },
-  { src: "serah-terima1.jpeg", caption: "Serah Terima Suzuki Ertiga GX Hybrid" },
-  { src: "serah-terima2.jpeg", caption: "Serah Terima Suzuki Carry Wide Deck" },
-  { src: "serah-terima3.jpeg", caption: "Serah Terima Suzuki Jimny 5 Door" },
-  { src: "serah-terima4.jpeg", caption: "Serah Terima Grand Vitara Alpha" },
-  { src: "serah-terima5.jpeg", caption: "Serah Terima S-Presso GX AGS" },
-  { src: "serah-terima6.jpeg", caption: "Serah Terima Suzuki Fronx RX Turbo" },
+  { src: "serah-terima.jpeg", caption: "" },
+  { src: "serah-terima1.jpeg", caption: "" },
+  { src: "serah-terima2.jpeg", caption: "" },
+  { src: "serah-terima3.jpeg", caption: "" },
+  { src: "serah-terima4.jpeg", caption: "" },
+  { src: "serah-terima5.jpeg", caption: "" },
+  { src: "serah-terima6.jpeg", caption: "" },
 ];
