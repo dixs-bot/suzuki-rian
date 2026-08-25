@@ -9,8 +9,8 @@ export const viewport = {
 
 export const metadata = {
   title: `Dealer Suzuki Bandung & Cimahi | ${siteConfig.businessName} – Kredit Mobil Baru DP Ringan`,
-  description: "Dealer Suzuki Nusantara Jaya Sentosa Naripan melayani pembelian, servis, dan spare part mobil Suzuki di wilayah Bandung raya, Subang, Sumedang, Garut, Tasikmalaya, Ciamis, Banjar, dan Pangandaran.",
-  keywords: "Dealer Suzuki Nusantara Jaya Sentosa Naripan melayani pembelian, servis, dan spare part mobil Suzuki di wilayah Bandung raya, Subang, Sumedang, Garut, Tasikmalaya, Ciamis, Banjar, dan Pangandaran",
+  description: "Dealer Suzuki Nusantara Jaya Sentosa Ahmad Yani melayani pembelian, servis, dan spare part mobil Suzuki di wilayah Bandung raya, Subang, Sumedang, Garut, Tasikmalaya, Ciamis, Banjar, dan Pangandaran.",
+  keywords: "Dealer Suzuki Nusantara Jaya Sentosa Ahmad Yani melayani pembelian, servis, dan spare part mobil Suzuki di wilayah Bandung raya, Subang, Sumedang, Garut, Tasikmalaya, Ciamis, Banjar, dan Pangandaran",
   authors: [{ name: siteConfig.businessName }],
   robots: "index, follow",
   openGraph: {
@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
                 "latitude": siteConfig.dealerCoords.lat,
                 "longitude": siteConfig.dealerCoords.lng
               },
-              "areaServed": ["Bandung", "Cimahi", "Soekarno Hatta Bandung", "Gedebage", "Naripan", "Jawa Barat"],
+              "areaServed": ["Bandung", "Cimahi", "Soekarno Hatta Bandung", "Gedebage", "Ahmad Yani", "Jawa Barat"],
               "openingHoursSpecification": [{
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
