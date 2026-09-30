@@ -13,21 +13,21 @@ export const products = [
       // XL7 REGULER
       { name: 'XL7 New Zeta MT', price: 245350000 },
       { name: 'XL7 New Zeta AT', price: 256450000 },
-      { name: 'XL7 New Beta MT Hybrid', price: 273100000 },
-      { name: 'XL7 New Beta AT Hybrid', price: 284100000 },
+      { name: 'XL7 New Beta MT Hybrid', price: 273600000 },
+      { name: 'XL7 New Beta AT Hybrid', price: 284600000 },
       { name: 'XL7 New Alpha MT Hybrid', price: 284100000 },
-      { name: 'XL7 New Alpha MT Hybrid 2 Tone', price: 286100000 },
+      { name: 'XL7 New Alpha MT Hybrid 2 Tone', price: 286600000 },
       { name: 'XL7 New Alpha AT Hybrid', price: 295550000 },
       { name: 'XL7 New Alpha AT Hybrid 2 Tone', price: 297550000 },
-      { name: 'XL7 New Alpha AT Hybrid Kuro', price: 301700000 },
+      { name: 'XL7 New Alpha AT Hybrid Kuro', price: 302200000 },
       { name: 'XL7 New Alpha AT Hybrid 2 Tone Kuro', price: 303700000 },
       // XL7 MC NIK 2026
-      { name: 'XL7 Zeta MT MC', price: 257200000 },
-      { name: 'XL7 Zeta AT MC', price: 268200000 },
-      { name: 'XL7 Beta MT Hybrid MC', price: 284900000 },
-      { name: 'XL7 Beta AT Hybrid MC', price: 296000000 },
-      { name: 'XL7 Alpha AT Hybrid MC', price: 310800000 },
-      { name: 'XL7 Alpha AT Hybrid 2 Tone MC', price: 312800000 }
+      { name: 'XL7 Zeta MT MC', price: 257700000 },
+      { name: 'XL7 Zeta AT MC', price: 268700000 },
+      { name: 'XL7 Beta MT Hybrid MC', price: 285400000 },
+      { name: 'XL7 Beta AT Hybrid MC', price: 296500000 },
+      { name: 'XL7 Alpha AT Hybrid MC', price: 311300000 },
+      { name: 'XL7 Alpha AT Hybrid 2 Tone MC', price: 313300000 }
     ],
     colors: [
       { name: 'Pearl White', hex: '#F5F5F0' },
@@ -63,14 +63,14 @@ export const products = [
     ],
     variants: [
       // HANYA NIK 2026 (NIK 2025 TELAH DIHAPUS)
-      { name: 'All New Ertiga MC GL MT (2026)', price: 236900000 },
-      { name: 'All New Ertiga MC GL AT (2026)', price: 247600000 },
-      { name: 'All New Ertiga MC GX MT (2026)', price: 264400000 },
-      { name: 'All New Ertiga MC GX AT (2026)', price: 275400000 },
-      { name: 'All New Ertiga Cruise MT (2026)', price: 277300000 },
-      { name: 'All New Ertiga Cruise MT 2 Tone (2026)', price: 279300000 },
-      { name: 'All New Ertiga Cruise AT (2026)', price: 288400000 },
-      { name: 'All New Ertiga Cruise AT 2 Tone (2026)', price: 290400000 }
+      { name: 'All New Ertiga MC GL MT (2026)', price: 237400000 },
+      { name: 'All New Ertiga MC GL AT (2026)', price: 248100000 },
+      { name: 'All New Ertiga MC GX MT (2026)', price: 259900000 },
+      { name: 'All New Ertiga MC GX AT (2026)', price: 270900000 },
+      { name: 'All New Ertiga Cruise MT (2026)', price: 272800000 },
+      { name: 'All New Ertiga Cruise MT 2 Tone (2026)', price: 274800000 },
+      { name: 'All New Ertiga Cruise AT (2026)', price: 283900000 },
+      { name: 'All New Ertiga Cruise AT 2 Tone (2026)', price: 285900000 }
     ],
     colors: [
       { name: 'Pearl White', hex: '#F5F5F0' },
@@ -105,10 +105,10 @@ export const products = [
       'carry-pu1.png',
     ],
     variants: [
-      { name: 'New Carry PU FD', price: 152950000 },
-      { name: 'New Carry PU FD AC PS', price: 159850000 },
-      { name: 'New Carry PU WD', price: 153950000 },
-      { name: 'New Carry PU WD AC PS', price: 160750000 }
+      { name: 'New Carry PU FD', price: 154950000 },
+      { name: 'New Carry PU FD AC PS', price: 161850000 },
+      { name: 'New Carry PU WD', price: 155950000 },
+      { name: 'New Carry PU WD AC PS', price: 162750000 }
     ],
     colors: [
       { name: 'Super White', hex: '#F5F5F0' },
@@ -230,14 +230,14 @@ export const products = [
     variants: [
       // NIK 2025
       { name: 'Jimny 5 Door MT', price: 471100000 },
-      { name: 'Jimny 5 Door AT', price: 483700000 },
+      { name: 'Jimny 5 Door AT', price: 484200000 },
       { name: 'Jimny 5 Door MT 2 Tone', price: 474350000 },
-      { name: 'Jimny 5 Door AT 2 Tone', price: 486900000 },
+      { name: 'Jimny 5 Door AT 2 Tone', price: 487400000 },
       // KHUSUS FLEET NIK 2025
       { name: 'Jimny 5 Door MT (Khusus Fleet)', price: 451100000 },
-      { name: 'Jimny 5 Door AT (Khusus Fleet)', price: 463700000 },
+      { name: 'Jimny 5 Door AT (Khusus Fleet)', price: 464200000 },
       { name: 'Jimny 5 Door MT 2 Tone (Khusus Fleet)', price: 454350000 },
-      { name: 'Jimny 5 Door AT 2 Tone (Khusus Fleet)', price: 466900000 }
+      { name: 'Jimny 5 Door AT 2 Tone (Khusus Fleet)', price: 467400000 }
     ],
     colors: [
       { name: 'Kinetic Yellow', hex: '#E8D44D' },
@@ -273,9 +273,9 @@ export const products = [
       'grand-vitara1.png',
     ],
     variants: [
-      { name: 'Grand Vitara GX MC AT', price: 366900000 },
-      { name: 'Grand Vitara GX MC AT 2 Tone (Silver)', price: 369900000 },
-      { name: 'Grand Vitara GX MC AT 2 Tone (White)', price: 364900000 }
+      { name: 'Grand Vitara GX MC AT', price: 428300000 },
+      { name: 'Grand Vitara GX MC AT 2 Tone (Silver)', price: 372400000 },
+      { name: 'Grand Vitara GX MC AT 2 Tone (White)', price: 367400000 }
     ],
     colors: [
       { name: 'Pearl White', hex: '#F5F5F0' },
@@ -311,11 +311,11 @@ export const products = [
     ],
     variants: [
       // NIK 2025
-      { name: 'S-Presso MT (2025)', price: 160600000 },
-      { name: 'S-Presso AT (2025)', price: 170600000 },
+      { name: 'S-Presso MT (2025)', price: 173650000 },
+      { name: 'S-Presso AT (2025)', price: 185050000 },
       // NIK 2026
-      { name: 'S-Presso MT (2026)', price: 168150000 },
-      { name: 'S-Presso AT (2026)', price: 179550000 }
+      { name: 'S-Presso MT (2026)', price: 173650000 },
+      { name: 'S-Presso AT (2026)', price: 185050000 }
     ],
     colors: [
       { name: 'Sapphire Blue', hex: '#1E3A5F' },
@@ -351,19 +351,19 @@ export const products = [
     ],
     variants: [
       // NIK 2025
-      { name: 'Fronx GL MT', price: 242250000 },
+      { name: 'Fronx GL MT', price: 240800000 },
       { name: 'Fronx GX MT', price: 275650000 },
-      { name: 'Fronx GX AT', price: 293750000 },
-      { name: 'Fronx SGX AT 1 Tone', price: 315950000 },
-      { name: 'Fronx SGX AT 2 Tone', price: 317950000 },
+      { name: 'Fronx GX AT', price: 295280000 },
+      { name: 'Fronx SGX AT 1 Tone', price: 314500000 },
+      { name: 'Fronx SGX AT 2 Tone', price: 319500000 },
       // NIK 2026
-      { name: 'Fronx GL MT (2026)', price: 257750000 },
-      { name: 'Fronx GL AT (2026)', price: 264350000 },
-      { name: 'Fronx GX MT (2026)', price: 285100000 },
-      { name: 'Fronx GX AT (2026)', price: 303200000 },
-      { name: 'Fronx SGX AT 1 Tone (2026)', price: 335400000 },
-      { name: 'Fronx SGX AT 2 Tone (2026)', price: 337400000 },
-      { name: 'Fronx SGX AT Kuro (2026)', price: 336400000 },
+      { name: 'Fronx GL MT (2026)', price: 256300000 },
+      { name: 'Fronx GL AT (2026)', price: 265900000 },
+      { name: 'Fronx GX MT (2026)', price: 283650000 },
+      { name: 'Fronx GX AT (2026)', price: 301750000 },
+      { name: 'Fronx SGX AT 1 Tone (2026)', price: 330950000 },
+      { name: 'Fronx SGX AT 2 Tone (2026)', price: 332950000 },
+      { name: 'Fronx SGX AT Kuro (2026)', price: 331900000 },
       // Variant Lama (Tidak ada di price list baru)
       { name: 'Fronx GL AT', price: 275300000 }, // PERLU VERIFIKASI HARGA
       { name: 'Fronx SGX AT (Ivory & Putih)', price: 331000000 } // PERLU VERIFIKASI HARGA
@@ -402,10 +402,10 @@ export const products = [
       'apv1.png',
     ],
     variants: [
-      { name: 'APV GE PS MT AB', price: 215600000 },
-      { name: 'APV GL MT AB', price: 228800000 },
-      { name: 'APV GX MT AB', price: 242800000 },
-      { name: 'APV SGX MT AB', price: 246750000 }
+      { name: 'APV GE PS MT AB', price: 218100000 },
+      { name: 'APV GL MT AB', price: 231300000 },
+      { name: 'APV GX MT AB', price: 245300000 },
+      { name: 'APV SGX MT AB', price: 249250000 }
     ],
     colors: [
       { name: 'Silky Silver', hex: '#B8B8B8' },
@@ -438,7 +438,7 @@ export const products = [
       'apv-blind-van1.png',
     ],
     variants: [
-      { name: 'APV Blind Van', price: 174300000 }
+      { name: 'APV Blind Van', price: 176800000 }
     ],
     colors: [
       { name: 'Super White', hex: '#F5F5F0' },
