@@ -1,7 +1,7 @@
 import { siteConfig } from "../data/siteConfig";
 
 export default function robots() {
-  const baseUrl = "https://suzuki-rian.vercel.app";
+  const baseUrl = "https://www.suzukiuntukbdg.com";
 
   return {
     rules: [
