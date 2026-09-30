@@ -12,7 +12,7 @@ export const metadata = {
   // BASE URL
   // ============================================================
 
-  metadataBase: new URL("https://suzuki-rian.vercel.app/"),
+  metadataBase: new URL("https://www.suzukiuntukbdg.com/"),
 
   // ============================================================
   // SEO TITLE
@@ -66,7 +66,7 @@ export const metadata = {
   // ============================================================
 
   alternates: {
-    canonical: "https://suzuki-rian.vercel.app/",
+    canonical: "https://www.suzukiuntukbdg.com/",
   },
 
   // ============================================================
@@ -81,7 +81,7 @@ export const metadata = {
 
     type: "website",
 
-    url: "https://suzuki-rian.vercel.app/",
+    url: "https://www.suzukiuntukbdg.com/",
 
     siteName: siteConfig.businessName,
 
@@ -143,7 +143,7 @@ export default function RootLayout({ children }) {
 
               priceRange: "$$",
 
-              url: "https://suzuki-rian.vercel.app/",
+              url: "https://www.suzukiuntukbdg.com/",
 
               address: {
                 "@type": "PostalAddress",
