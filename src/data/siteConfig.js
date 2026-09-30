@@ -28,4 +28,5 @@ export const deliveryPhotos = [
   { src: "serah-terima4.jpeg", caption: "" },
   { src: "serah-terima5.jpeg", caption: "" },
   { src: "serah-terima6.jpeg", caption: "" },
+  { src: "serah-terima7.jpeg", caption: "" },
 ];
